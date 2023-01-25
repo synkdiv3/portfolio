@@ -1,0 +1,163 @@
+@import url("https://use.typekit.net/cat5hoe.css");
+
+.nav {
+    color: #F9CDAC;
+    font-size: 2rem;
+    font-family: demos-next, sans-serif;
+    font-weight: 700;
+}
+
+ul {
+    font-size: 1.875rem;
+}
+
+@media only screen and (max-width: 62.5rem) {
+    ul {
+        font-size: 20px;
+    }
+}
+
+li:hover {
+    font-style: italic;
+    letter-spacing: .3125rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #F9CDAC;
+}
+
+.hero h1 {
+    font-size: 5.625rem;
+    font-family: ohno-blazeface, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 3vh;
+    color: #FDC900;
+    text-shadow: 2px 2px 4px #E35A2E;
+}
+
+@media only screen and (max-width: 62.5rem) {
+    .hero h1 {
+        font-size: 60px;
+    }
+}
+
+.hero p {
+    font-size: 2.25rem;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: demos-next, sans-serif;
+    color: #F9CDAC;
+}
+
+.btn {
+  background-color: #E35A2E;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 2px 2px 4px #85361c;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: demos-next, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 10.5rem;
+  line-height: 1.25rem;
+  letter-spacing: .1875rem;
+  margin: 0;
+  outline: none;
+  padding: .625rem 1rem;
+  text-align: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #F9CDAC;
+}
+
+.languages a{
+    font-family: demos-next, sans-serif;
+    font-size: .875rem;
+    text-decoration: none;
+    color: #F9CDAC;
+    margin-left: 2vw;
+}
+
+.about-me h1 {
+    font-family: ohno-blazeface, sans-serif;
+    font-size: 3.125rem;
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    color: #FDC900;
+    background-color: #E35A2E;
+    border-radius: 10rem;
+}
+
+@media only screen and (max-width: 62.5rem) {
+    .about-me h1 {
+        font-size: 1.875rem;
+    }
+}
+
+.about-me p {
+    margin-top: -1.5vh;
+    font-family: demos-next, sans-serif;
+    font-size: 1rem;
+    color: #E35A2E;
+    background-color: #FDC900;
+    border-radius: 1.25rem;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 62.5rem) {
+    .about-me p {
+        font-size: .875rem;
+    }
+}
+
+.portfolio h2 {
+    margin-top: 0;
+    font-family: ohno-blazeface, sans-serif;
+    font-size: 3.125rem;
+    background-color: #FD91B2;
+    width: 31.25rem;
+    border-radius: 10rem;
+    color: #FDC900;
+}
+
+.card p {
+    font-size: .9375rem;
+    font-family: demos-next, sans-serif;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.card h3 {
+    font-size: 1.5625rem;
+    font-family: demos-next-condensed, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #E35A2E;
+  }
+
+.card .project-link {
+    margin-top: 10vh;
+}
+
+.project-link a {
+    text-decoration: none;
+    font-family: demos-next-condensed, sans-serif;
+    color: #E35A2E;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.project-link a:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+.card p span {
+    font-style: italic;
+}

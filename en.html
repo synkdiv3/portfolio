@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <script src="https://kit.fontawesome.com/d3794311ad.js" crossorigin="anonymous"></script>
+    <title>Portfolio Maria Vigorito</title>
+</head>
+
+<body>
+    <section class="hero">
+        <nav class="nav">
+            <div class="languages">
+                <a href="index.html">PT</a>
+                <a href="en.html">EN</a>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div class="hero-text">
+            <h1>Maria Vigorito</h1>
+            <p id="my-title">Web Developer</p>
+            <button class="btn"><a href="#about">About Me</a></button>
+        </div>
+        <div class="blob-div"><img class="blob" src="images/blob.png" /></div>
+    </section>
+
+    <section class="about" id="about"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#FB8037" fill-opacity="1"
+                d="M0,128L48,106.7C96,85,192,43,288,37.3C384,32,480,64,576,101.3C672,139,768,181,864,176C960,171,1056,117,1152,106.7C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+        <div class="profile-pic"><img src="images/icon.png" id="profile-pic" /></div>
+        <div class="about-me">
+            <h1>About Me</h1>
+            <p>My name is Maria Clara Vigorito, I'm 25 years old and, in fact, I have a degree in History. I went through Communications in college before going to History, but after a lot of questioning, I decided to study Information Technology and Web Development. My experience with proofreading makes me have a very critical eye when working with code. I'm currently studying and delving into HTML, CSS (and compilers such as SCSS), JavaScript and Python.</p>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container-title">
+            <h2>Projects</h2>
+        </div>
+        <div class="card-container">
+            <div class="card" id="card1"><img class="card-image" src="images/projeto1.png" />
+                <h3>Basic Calculator</h3>
+                <p>A very simple calculator, using vanilla JavaScript. <span>HTML, CSS e JS.</span></p>
+                <span class="project-link"><a href="https://github.com/synkdiv3/basic-calculator">Check it out</a></span>
+            </div>
+            <div class="card" id="card2"><img class="card-image" src="images/projeto2.png" />
+                <h3>Color Generator</h3>
+                <p>A color generator, with an specific palette option and one for any HEX. <span>HTML, CSS e JS.</span></p>
+                <span class="project-link"><a href="https://github.com/synkdiv3/color-generator">Check it out</a></span>
+            </div>
+            <div class="card" id="card3"><img class="card-image" src="images/projeto3.png" />
+                <h3>Midnights Generator</h3>
+                <p>A generator for lyrics from the album "Midnights" by the singer Taylor Swift. <span>HTML, CSS e JS.</span></p>
+                <span class="project-link"><a href="https://github.com/synkdiv3/midnights-quotes">Check it out</a></span>
+            </div>
+            <div class="card" id="card4"><img class="card-image" src="images/projeto4.png" />
+                <h3>Product Preview</h3>
+                <p>Challenge from the website Frontend Mentor, with the purpose of creating a product card. <span>HTML e SCSS</span></p>
+                <span class="project-link"><a href="https://github.com/synkdiv3/product-preview">Check it out</a></span>
+            </div>
+        </div>
+        <div class="wave"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#FD91B2" fill-opacity="1" d="M0,224L60,213.3C120,203,240,181,360,192C480,203,600,245,720,245.3C840,245,960,203,1080,181.3C1200,160,1320,160,1380,160L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+          </svg></div>
+    </section>
+    <footer id="contact-me">
+        <div class="footer-icons"><a href="mailto:mariavigorito@outlook.com"><img class="icon" src="images/mail.png" /></a><a href="https://github.com/synkdiv3"><img class="icon" src="images/github.png" /></a><img class="icon" src="images/linkedin.png" /></div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
