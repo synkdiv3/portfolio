@@ -4,7 +4,7 @@
 
 <details>
     <summary>Captura de tela do projeto</summary>
-    <img src="[SCREENSHOT.gif](https://i.ibb.co/56Pg8t4/image.png)">
+    <img src="https://i.ibb.co/56Pg8t4/image.png">
 </details>
 
 ## 📎 Links
